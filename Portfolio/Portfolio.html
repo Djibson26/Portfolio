@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Djibril DIARRA</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .profile-pic {
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: url('Images/photo\ de\ profile.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .content a {
+            color: #1a0dab;
+            text-decoration: none;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        }
+        .project-image {
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 10px;
+            }
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+                padding: 5px;
+            }
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-pic"></div>
+        <h1>Djibril DIARRA</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Développeur Mobile Flutter</h2>
+            <p>Depuis 2021, je développe des applications mobiles innovantes avec Flutter. J'ai collaboré avec des professionnels de divers domaines pour créer des solutions technologiques adaptées.</p>
+            <h2>Projets</h2>
+            <p>Voici un projet récent sur lequel j'ai travaillé :</p>
+            <img src="Images/ANATOMIE AUTREMENT.png" alt="Image de l'application Anatomie Autrement" class="project-image">
+            <a href="https://t.me/anatomieautrement" target="_blank">Anatomie Autrement</a>
+            <p>Cette application a été développée en collaboration avec un étudiant de la 6e année de médecine pour faciliter l’apprentissage de l’anatomie pour les étudiants de la 1ère année de médecine.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Contactez-moi pour discuter de vos projets ou pour toute collaboration.</p>
+    </footer>
+</body>
+</html>
